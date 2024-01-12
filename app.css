@@ -1,0 +1,70 @@
+/* Reset some default styles and apply a basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: #e4e00a;
+    color: #0157c7;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #5fbe05;
+    color: #e007ce;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Section styling */
+section {
+    padding: 2em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #5023bb;
+    color: #0a88c223;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the anchor links in the navigation */
+nav a {
+    color: #c46540;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+/* Style the anchor links on hover */
+nav a:hover {
+    border-bottom: 2px solid #5777e0;
+}
+
+/* Style the services list */
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the services list items */
+#services li {
+    margin-bottom: 0.5em;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 1em 0;
+    }
+}
